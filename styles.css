@@ -1,0 +1,140 @@
+header {
+    background-color: #fff;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+
+ .container .container-content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    text-indent: 20px;
+ }
+
+h1 {
+    margin:0;
+    
+} 
+
+.container p {
+    margin-top: 10px;
+}
+
+body {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    
+
+}
+
+.topnav {
+    background-color: moccasin;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    
+}
+
+.topnav a {
+    float: left;
+    color: #2f2f2f;
+    font-size: 26px;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color:white;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.category *{
+    display: block;
+    width: 60px;
+    display: inline;
+}
+
+.menu {
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 200%;
+}
+
+.menu h2 {
+    font-size: 35px;
+}
+
+.menu dt {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.menu dd {
+    font-size: 18px;
+
+}
+.allergens {
+    font-style: italic;
+}
+.float-container {
+    padding: 10px;
+    text-align: center;
+    background-color: moccasin;
+    line-height: 200%;
+    
+}
+#contact{
+    width:40%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+#open{
+    width:40%;
+    padding:20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#lunch>dl>dt{
+    font-size: 20px;
+    
+}
+
+.skip {
+    position: absolute;
+    right: -10000px;
+    top: auto;width: 1px;
+    height: 1px;
+  }
+
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
